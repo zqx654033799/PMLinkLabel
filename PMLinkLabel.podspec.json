@@ -1,0 +1,28 @@
+{
+  "name": "PMLinkLabel",
+  "version": "0.1.0",
+  "summary": "link highlight label.",
+  "description": "link highlight label.",
+  "homepage": "https://github.com/zqx654033799/PMLinkLabel",
+  "authors": {
+    "paperman": "zqx654033799@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/zqx654033799/PMLinkLabel.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "Assets",
+      "resources": "Assets/**/*"
+    },
+    {
+      "name": "Classes",
+      "source_files": "Classes/**/*"
+    }
+  ]
+}
